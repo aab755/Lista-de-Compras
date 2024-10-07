@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Lista de Compras</h1>
+        <form id="addItemForm">
+            <input type="text" id="newItem" placeholder="Adicione um item">
+            <button type="submit">Adicionar</button>
+        </form>
+
+        <div class="list-container">
+            <div class="list not-bought">
+                <h2>Itens não comprados</h2>
+                <ul id="notBoughtItems"></ul>
+            </div>
+
+            <div class="list bought">
+                <h2>Itens comprados</h2>
+                <ul id="boughtItems"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
